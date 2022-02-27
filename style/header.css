@@ -1,0 +1,27 @@
+.navigation {
+  display: block;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #F1F1F1;
+  border-radius: 10px;
+  padding-left: 45px;
+  padding-top: 25px;
+  max-height: 215px;
+  padding-bottom: 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.navigation__title {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 120%;
+}
+
+.navigation-list__item:not(:nth-last-of-type(1)) {
+  margin-bottom: 10px;
+}
