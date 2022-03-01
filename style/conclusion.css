@@ -1,0 +1,28 @@
+.conclusion-list_item:before {
+  content: "— ";
+}
+
+.conclusion__title {
+  margin-bottom: 19px;
+  font-size: 44px;
+  padding-top: 25px;
+}
+
+.container-conclusion {
+  background-color: #F1F1F1;
+  border-radius: 10px;
+  padding-left: 31px;
+  padding-bottom: 22px;
+}
+
+.conclusion-list_item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.conclusion-list {
+  margin-bottom: 29px;
+}
+
+.container-conclusion p {
+  margin-bottom: 0;
+}

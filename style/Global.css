@@ -20,8 +20,10 @@ body {
 }
 
 img {
+  display: block;
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 
 button {
@@ -30,7 +32,6 @@ button {
 }
 
 a {
-  text-decoration: none;
   color: inherit;
 }
 
@@ -56,7 +57,7 @@ section {
 }
 
 h1,h2, h3, h4 {
-  margin: 0;
+  margin: 0 0 30px 0;
 }
 
 h2 {
@@ -71,9 +72,14 @@ ul, ol {
 }
 
 p {
+  margin-top: 0;
   margin-bottom: 30px;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 120%;
+}
+
+figure {
+  margin: 0;
 }

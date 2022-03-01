@@ -2,6 +2,8 @@
 @import "Global.css";
 @import "page.css";
 @import "header.css";
+@import "main.css";
+@import "conclusion.css";
 /* roboto-regular - latin_cyrillic-ext_cyrillic */
 @font-face {
   font-family: 'Roboto';
