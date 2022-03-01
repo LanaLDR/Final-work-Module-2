@@ -29,3 +29,16 @@
 .navigation-list__item:not(:nth-last-of-type(1)) {
   margin-bottom: 10px;
 }
+
+.container-navigation {
+  max-width: 1140px;
+}
+
+.container-navigation p{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container-navigation h1 {
+  padding-left: 30px;
+}
